@@ -40,7 +40,34 @@ const priebalses = ['r', 't', 'p', 's', 'd'];
 console.log(priebalses);
 
 
+// Veiksmai su kintamaisais
+// 1.
+const numbsuma = du + grozis + stuka;
+console.log(numbsuma);
 
+// 2.
+const textsum = namas + ' ' + pirkia + ' ' + troba;
+console.log(textsum);
+
+// 3.
+const sum1 = list[0] - list[1] + list[2] - list[3] + list[4];
+console.log(sum1);
+
+const sum2 = listas[0] - listas[1] + listas[2] - listas[3] + listas[4];
+console.log(sum2);
+
+const sum3 = listukas[0] - listukas[1] + listukas[2] - listukas[3] + listukas[4];
+console.log(sum3);
+
+// 4.
+const verte1 = sarasas[0] + ',' + ' ' + sarasas[1] + ',' + ' ' + sarasas[2] + ','+ ' ' + sarasas[3] + ',' + ' ' + sarasas[4];
+console.log(verte1);
+
+const verte2 = balses[0] + ',' + ' ' + balses[1] + ',' + ' ' + balses[2] + ','+ ' ' + balses[3] + ',' + ' ' + balses[4];
+console.log(verte2);
+
+const verte3 = priebalses[0] + ',' + ' ' + priebalses[1] + ',' + ' ' + priebalses[2] + ','+ ' ' + priebalses[3] + ',' + ' ' + priebalses[4];
+console.log(verte3);
 
 
 
