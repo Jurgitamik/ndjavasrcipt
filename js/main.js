@@ -1,5 +1,9 @@
-// Kintamuju incijavimas
-//1.
+console.log('-------------------');
+console.log('KINTAMŲJŲ INICIJAVIMAS');
+
+console.log('-------------------');
+console.log('1. Užduotis');
+
 const du = ( 2 );
 console.log(du);
 
@@ -9,7 +13,9 @@ console.log(grozis);
 const stuka = (1000);
 console.log(stuka);
 
-//2.
+console.log('-------------------');
+console.log('2. Užduotis');
+
 const namas = ('namas');
 console.log(namas);
 
@@ -19,7 +25,9 @@ console.log(pirkia);
 const troba = ('namas');
 console.log(troba);
 
-//3.
+console.log('-------------------');
+console.log('3. Užduotis');
+
 const list = [8, 7, 6, 5, 4];
 console.log(list);
 
@@ -29,7 +37,9 @@ console.log(listas);
 const listukas = [2, 3, 2, 3, 2];
 console.log(listukas);
 
-//4. 
+console.log('-------------------');
+console.log('4. Užduotis');
+ 
 const sarasas = ['as', 'tu', 'jis', 'ji', 'jie'];
 console.log(sarasas);
 
@@ -40,16 +50,23 @@ const priebalses = ['r', 't', 'p', 's', 'd'];
 console.log(priebalses);
 
 
-// Veiksmai su kintamaisais
-// 1.
+console.log('-------------------');
+console.log('VEIKSMAI SU KINTAMAISIAIS');
+console.log('-------------------');
+console.log('1. Užduotis');
+
 const numbsuma = du + grozis + stuka;
 console.log(numbsuma);
 
-// 2.
+console.log('-------------------');
+console.log('2. Užduotis');
+
 const textsum = namas + ' ' + pirkia + ' ' + troba;
 console.log(textsum);
 
-// 3.
+console.log('-------------------');
+console.log('3. Užduotis');
+
 const sum1 = list[0] - list[1] + list[2] - list[3] + list[4];
 console.log(sum1);
 
@@ -59,7 +76,9 @@ console.log(sum2);
 const sum3 = listukas[0] - listukas[1] + listukas[2] - listukas[3] + listukas[4];
 console.log(sum3);
 
-// 4.
+console.log('-------------------');
+console.log('4. Užduotis');
+
 const verte1 = sarasas[0] + ',' + ' ' + sarasas[1] + ',' + ' ' + sarasas[2] + ','+ ' ' + sarasas[3] + ',' + ' ' + sarasas[4];
 console.log(verte1);
 
@@ -70,9 +89,39 @@ const verte3 = priebalses[0] + ',' + ' ' + priebalses[1] + ',' + ' ' + priebalse
 console.log(verte3);
 
 
+console.log('-------------------');
+console.log('KINTAMŲJŲ PALYGINIMAS');
 
+// const taip = ('Pomidoras');
+// const netaip = ('Bandykite kitą kartą.');
 
+// if (taip === 'Pomidoras') {
+//     console.log(taip);    
+// } else {
+//     console.log(netaip);
+// }
 
+const taip = ('Agurkas');
+const netaip = ('Bandykite kitą kartą.');
 
+if (taip === 'Pomidoras') {
+    console.log(taip);    
+} else {
+    console.log(netaip);
+}
 
+console.log('-------------------');
+console.log('1. Užduotis');
+
+const firfir = 16;
+const furfur = 65;
+
+if (firfir !== furfur) {
+    console.log('Teisingas atsakymas');  
+} else {
+    console.log('Nagi, paskaičiuokime!');
+}
+
+console.log('-------------------');
+console.log('2. Užduotis');
 
