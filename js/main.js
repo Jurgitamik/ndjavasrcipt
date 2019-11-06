@@ -124,5 +124,19 @@ if (firfir !== furfur) {
 
 console.log('-------------------');
 console.log('2. Užduotis');
+
+const ilgai = 'kapasesitairpjausi';
+console.log(ilgai);
+
+const trumpai = 'tu';
+console.log(trumpai);
+
+
 console.log('-------------------');
-console.log('2. Užduotis');
+console.log('3. Užduotis');
+
+if (ilgai <= trumpai) {
+    console.log('taip');    
+} else {
+    console.log('ne');   
+}
