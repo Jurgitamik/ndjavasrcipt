@@ -124,4 +124,5 @@ if (firfir !== furfur) {
 
 console.log('-------------------');
 console.log('2. Užduotis');
-
+console.log('-------------------');
+console.log('2. Užduotis');
