@@ -125,18 +125,44 @@ if (firfir !== furfur) {
 console.log('-------------------');
 console.log('2. Užduotis');
 
-const ilgai = 'kapasesitairpjausi';
-console.log(ilgai);
+const ilgai = 'Ką pasėsi, tą ir pjausi';
+console.log(ilgai.length);
 
-const trumpai = 'tu';
-console.log(trumpai);
-
+const trumpai = 'Tu - (ne) aš                        ';
+console.log(trumpai.length);
 
 console.log('-------------------');
 console.log('3. Užduotis');
 
-if (ilgai <= trumpai) {
-    console.log('taip');    
+const pirmoilgis = ilgai.length;
+const antroilgis = trumpai.length;
+
+if (pirmoilgis > antroilgis) {
+    console.log('Pirmas ilgesnis už antrą');    
 } else {
-    console.log('ne');   
+    if (pirmoilgis !== antroilgis) {
+        console.log('Abu nelygūs');
+    } else {
+        console.log('Antras ilgesnis už pirmą');
+    }      
 }
+
+console.log('-------------------');
+console.log('4. Užduotis');
+
+let list1 = [6, 7, -4, 4, 837, [0, 6666]];
+let list2 = ['a', 'fd', 'ssf4', 5];
+console.log(list1);
+console.log(list1.length);
+console.log(list2);
+console.log(list2.length);
+
+// Kuo skiriasi sąrašo tipo ir teksto tipo ilgis???
+
+
+
+
+
+
+
+
