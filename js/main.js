@@ -221,3 +221,14 @@ console.log('Suma nuo', start, 'iki', finish, 'yra', summa);
 
 console.log('-------------------');
 console.log('2. Užduotis');
+
+let rastas = 'mikailionyte';
+console.log(rastas);
+
+for (let i = rastas.length - 1 ; i >= 0; i-- ) {
+    console.log(rastas[i]);
+}
+
+console.log('-------------------');
+console.log('3. Užduotis');
+
