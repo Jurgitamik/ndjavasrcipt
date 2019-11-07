@@ -297,3 +297,15 @@ console.log('Skaičių intervale tarp', nuo, 'ir', iki, ', besidalinančių be l
         
 // console.log('Skaičių intervale tarp', nuo, 'ir', iki, ', besidalinančių be liekanos iš', daliklis, 'yra', kiek, 'vnt.');
   
+console.log('-------------------');
+console.log('FUNKCIJOS');
+console.log('-------------------');
+console.log('1. Užduotis');
+
+function tusciaFunkcija () {
+    return false;
+}
+console.log(tusciaFunkcija ());
+
+console.log('-------------------');
+console.log('2. Užduotis');
