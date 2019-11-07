@@ -238,7 +238,6 @@ let daliklis = 3;
 let kiek = 0;
 
 for (let i = 0; i <= iki; i++) {
-    console.log(i, daliklis, i / 3);
     if ( i % daliklis === 0) {
         kiek++;
     }
@@ -252,7 +251,6 @@ console.log('Skaičių intervale tarp', nuo, 'ir', iki, ', besidalinančių be l
  kiek = 0;
 
 for (let i = 0; i <= iki; i++) {
-    console.log(i, daliklis, i / 3);
     if ( i % daliklis === 0) {
         kiek++;
     }
@@ -266,7 +264,6 @@ console.log('Skaičių intervale tarp', nuo, 'ir', iki, ', besidalinančių be l
 //  kiek = 0;
 
 // for (let i = 0; i <= iki; i++) {
-//     console.log(i, daliklis, i / 3);
 //     if ( i % daliklis === 0) {
 //         kiek++;
 //     }
@@ -280,7 +277,6 @@ console.log('Skaičių intervale tarp', nuo, 'ir', iki, ', besidalinančių be l
  kiek = 0;
 
 for (let i = 0; i <= iki; i++) {
-    console.log(i, daliklis, i / 3);
     if ( i % daliklis === 0) {
         kiek++;
     }
@@ -294,7 +290,6 @@ console.log('Skaičių intervale tarp', nuo, 'ir', iki, ', besidalinančių be l
 //  kiek = 0;
 
 // for (let i = 0; i <= iki; i++) {
-//     console.log(i, daliklis, i / 3);
 //     if ( i % daliklis === 0) {
 //         kiek++;
 //     }
