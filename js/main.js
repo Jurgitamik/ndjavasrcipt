@@ -232,3 +232,73 @@ for (let i = rastas.length - 1 ; i >= 0; i-- ) {
 console.log('-------------------');
 console.log('3. Užduotis');
 
+let nuo = 0;
+let iki = 11;
+let daliklis = 3;
+let kiek = 0;
+
+for (let i = 0; i <= iki; i++) {
+    console.log(i, daliklis, i / 3);
+    if ( i % daliklis === 0) {
+        kiek++;
+    }
+    }
+        
+console.log('Skaičių intervale tarp', nuo, 'ir', iki, ', besidalinančių be liekanos iš', daliklis, 'yra', kiek, 'vnt.');
+    
+ nuo = 0;
+ iki = 11;
+ daliklis = 5;
+ kiek = 0;
+
+for (let i = 0; i <= iki; i++) {
+    console.log(i, daliklis, i / 3);
+    if ( i % daliklis === 0) {
+        kiek++;
+    }
+    }
+        
+console.log('Skaičių intervale tarp', nuo, 'ir', iki, ', besidalinančių be liekanos iš', daliklis, 'yra', kiek, 'vnt.');
+    
+//  nuo = 0;
+//  iki = 11;
+//  daliklis = 7;
+//  kiek = 0;
+
+// for (let i = 0; i <= iki; i++) {
+//     console.log(i, daliklis, i / 3);
+//     if ( i % daliklis === 0) {
+//         kiek++;
+//     }
+//     }
+        
+// console.log('Skaičių intervale tarp', nuo, 'ir', iki, ', besidalinančių be liekanos iš', daliklis, 'yra', kiek, 'vnt.');
+    
+ nuo = 8;
+ iki = 31;
+ daliklis = 3;
+ kiek = 0;
+
+for (let i = 0; i <= iki; i++) {
+    console.log(i, daliklis, i / 3);
+    if ( i % daliklis === 0) {
+        kiek++;
+    }
+    }
+        
+console.log('Skaičių intervale tarp', nuo, 'ir', iki, ', besidalinančių be liekanos iš', daliklis, 'yra', kiek, 'vnt.');
+    
+//  nuo = -18;
+//  iki = 18;
+//  daliklis = 3;
+//  kiek = 0;
+
+// for (let i = 0; i <= iki; i++) {
+//     console.log(i, daliklis, i / 3);
+//     if ( i % daliklis === 0) {
+//         kiek++;
+//     }
+//     }
+        
+// console.log('Skaičių intervale tarp', nuo, 'ir', iki, ', besidalinančių be liekanos iš', daliklis, 'yra', kiek, 'vnt.');
+  
