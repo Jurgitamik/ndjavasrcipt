@@ -159,10 +159,65 @@ console.log(list2.length);
 
 // Kuo skiriasi sąrašo tipo ir teksto tipo ilgis???
 
+console.log('-------------------');
+console.log('CIKLO FOR PANAUDOJIMAS');
+console.log('-------------------');
+console.log('1. Užduotis');
+
+// const start = 0;
+// const finish = 0;
+// let summa = 0;
+
+// for (let i = start; i <= finish; i++) {
+//     summa = summa + i;    
+// }
+// console.log('Suma nuo', start, 'iki', finish, 'yra', summa);
+
+// let start = 0;
+// let finish = 4;
+// let summa = 0;
+
+// for (let i = start; i <= finish; i++) {
+//     summa = summa + i;    
+// }
+// console.log('Suma nuo', start, 'iki', finish, 'yra', summa);
+
+// const start = 0;
+// const finish = 100;
+// let summa = 0;
+
+// for (let i = start; i <= finish; i++) {
+//     summa = summa + i;    
+// }
+// console.log('Suma nuo', start, 'iki', finish, 'yra', summa);
+
+// const start = 574;
+// const finish = 815;
+// let summa = 0;
+
+// for (let i = start; i <= finish; i++) {
+//     summa = summa + i;    
+// }
+// console.log('Suma nuo', start, 'iki', finish, 'yra', summa);
+
+// const start = -50;
+// const finish = 50;
+// let summa = 0;
+
+// for (let i = start; i <= finish; i++) {
+//     summa = summa + i;    
+// }
+// console.log('Suma nuo', start, 'iki', finish, 'yra', summa);
+
+const start = -70;
+const finish = 30;
+let summa = 0;
+
+for (let i = start; i <= finish; i++) {
+    summa = summa + i;    
+}
+console.log('Suma nuo', start, 'iki', finish, 'yra', summa);
 
 
-
-
-
-
-
+console.log('-------------------');
+console.log('2. Užduotis');
